@@ -1,0 +1,81 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1.5rem;
+}
+.card-grid .header-card {
+  width: 100%;
+  display: flex;
+  border-radius: 0.4rem;
+  background: #fff;
+  padding: 1.5rem 0.5rem;
+}
+
+.header-card .card-thumbanail {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-card .card-thumbanail .back-circle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-card .card-thumbanail img {
+  width: 2.5rem;
+}
+.header-card .arorow-up-down {
+  font-size: 2.5rem;
+}
+
+.header-card .card-content {
+  width: 50%;
+  line-height: 1.3;
+}
+.card-content .card-titles {
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: rgb(159, 157, 157);
+  margin-bottom: 0.3rem;
+}
+.card-content .card-prices {
+  margin: 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-content .balance-details span:nth-child(1) {
+  font-size: 0.5rem;
+  margin: 0;
+}
+.card-content .balance-details span:nth-child(2),
+span:nth-child(3) {
+  font-size: 0.7rem;
+  margin: 0 1px;
+}
+
+@media screen and (max-width: 500px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  }
+  .card-grid .header-card {
+    padding: 1.2rem 0;
+  }
+
+  .header-card .card-thumbanail {
+    width: 58%;
+  }
+  .header-card .card-thumbanail .back-circle {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .header-card .card-thumbanail img {
+    width: 1.5rem;
+  }
+}

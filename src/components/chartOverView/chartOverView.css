@@ -1,0 +1,42 @@
+.overview-main {
+  width: 100%;
+  padding: 1rem 0;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.overView-quality {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.overview-dropdown button {
+  border: none;
+  outline: none;
+  background: rgb(239, 221, 239);
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.4rem;
+  color: rgb(139, 136, 136);
+}
+.second-div {
+  width: 30%;
+  height: 100%;
+  padding: 1rem;
+  background: cyan;
+}
+
+@media screen and (max-width: 800px) {
+  .overview-main {
+    flex-direction: column;
+  }
+  .overView-quality,
+  .second-div {
+    width: 100%;
+  }
+  .second-div {
+    margin: 2rem 0;
+  }
+}

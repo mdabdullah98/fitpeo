@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-app-sec {
+  box-sizing: border-box;
+  display: flex;
+}
+.main-app-sec .dashboard {
+  width: 12rem;
+
+  background: rgb(4, 4, 64);
+}
+.main-app-sec .header-chartOverView-productSell {
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .main-app-sec .header-chartOverView-productSell {
+    padding: 0.5rem;
+  }
+}

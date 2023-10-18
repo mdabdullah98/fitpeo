@@ -1,0 +1,32 @@
+.greet-user-search-main {
+  width: 100%;
+}
+.greet-user-search-main .greet-user {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.2rem 0;
+}
+
+.greet-user-search-main .search-form {
+  background: #fff;
+  display: block;
+}
+.greet-user-search-main .search-form label {
+  cursor: pointer;
+  margin: 0 0.2rem;
+  font-size: 1.2rem;
+}
+.greet-user-search-main .search-form input {
+  border: none;
+  outline: none;
+}
+
+.greet-user-search-main .balance-sheet-overview {
+  display: flex;
+}
+.greet-user-search-main .balance-sheet-overview .card {
+  padding: 1rem;
+}

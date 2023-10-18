@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+.dashboard-content {
+  width: 95%;
+  color: #a7a7a7;
+  margin: 0 auto;
+  padding: 0 0.2rem;
+  position: relative;
+}
+.dashboard-content .dashboard-list {
+  margin-top: 1.2rem;
+  padding: 0;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboard-content .dashboard-list .dashboard-item-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.56rem 0;
+}
+.dashboard-content .dashboard-item-list .carot-icon {
+  font-size: 0.7rem;
+}
+.dashboard-content .dashboard-item-list .icon {
+  font-size: 1.1rem;
+}
+.dashboard-content .dashboard-list .dashboard-item-list.active {
+  background: #2d2d69;
+}
+
+.dashboard-content .dashboard-list .dashboard-item-list .icon-key {
+  font-size: 0.8rem;
+}
+.user-progile-main {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.dashboard-content .user-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  background: #2d2d69;
+  border-radius: 0.5rem;
+  margin: 5rem 0;
+}
+.dashboard-content .user-profile img {
+  width: 1.5rem;
+  border-radius: 50%;
+}
+.dashboard-content .user-profile .user-degination h6,
+p {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .dashboard-content {
+    width: 100%;
+  }
+  .dashboard-content h5 {
+    font-size: 1rem;
+  }
+  .dashboard-content .dashboard-list .dashboard-item-list {
+    padding: 0.5rem 0;
+  }
+  .dashboard-content .dashboard-list .dashboard-item-list .item-text,
+  .icon {
+    font-size: 0.8rem;
+  }
+  .dashboard-content .dashboard-list .dashboard-item-list .icon {
+    font-size: 0.9rem;
+  }
+}
