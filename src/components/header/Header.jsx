@@ -1,5 +1,4 @@
 import { CiSearch } from "react-icons/ci";
-
 import Card from "../card/Card";
 
 import "./header.css";

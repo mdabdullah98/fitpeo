@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+.prodcuct-sell-main {
+  width: 100%;
+  padding: 1rem 0.7rem;
+}
+.product-sell-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-form {
+  width: 100%;
+  background: #fff;
+  display: flex;
+}
+.search-form label {
+  cursor: pointer;
+  margin: 0 0.2rem;
+  font-size: 1.2rem;
+}
+.search-form input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.chart-bar-quantity {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  background: rgb(238, 233, 254);
+  color: rgb(157, 155, 155);
+  margin: 0 2rem;
+}
+.chart-bar-quantity button {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-right: 0.2rem;
+  color: rgb(157, 155, 155);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .product-sell-header {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .chart-bar-quantity {
+    margin: 0 0.5rem;
+    padding: 0.2rem;
+  }
+}

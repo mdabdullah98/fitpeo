@@ -1,3 +1,5 @@
+// import { CiSearch } from "react-icons/ci";
+
 const headerChart = [
   {
     title: "earning",
@@ -45,6 +47,55 @@ const headerChart = [
   },
 ];
 
-const ChartArray = new Array(12).fill(true);
+const ChartArray = [
+  {
+    height: "7",
+    month: "jan",
+  },
+  {
+    height: "5.5",
+    month: "feb",
+  },
+  {
+    height: "9",
+    month: "mar",
+  },
+  {
+    height: "7",
+    month: "apr",
+  },
+  {
+    height: "7.8",
+    month: "may",
+  },
+  {
+    height: "4",
+    month: "jun",
+  },
+  {
+    height: "8",
+    month: "jul",
+  },
+  {
+    height: "9.2",
+    month: "aug",
+  },
+  {
+    height: "8",
+    month: "sep",
+  },
+  {
+    height: "7.5",
+    month: "oct",
+  },
+  {
+    height: "7",
+    month: "nov",
+  },
+  {
+    height: "8",
+    month: "dec",
+  },
+];
 
 export { headerChart, ChartArray };

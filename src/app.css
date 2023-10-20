@@ -9,11 +9,11 @@
 }
 .main-app-sec .dashboard {
   width: 12rem;
-
+  position: relative;
   background: rgb(4, 4, 64);
 }
 .main-app-sec .header-chartOverView-productSell {
-  width: 60%;
+  width: 85%;
   margin: 0 auto;
   padding: 1rem;
 }

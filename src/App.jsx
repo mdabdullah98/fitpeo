@@ -4,8 +4,11 @@ import "./app.css";
 
 import Header from "./components/header/Header";
 
-// import ChartOverview from "./components/chartOverView/ChartOverview";
+import ChartOverview from "./components/chartOverView/ChartOverview";
+
 import Dashboard from "./components/dashboard/Dashboard";
+
+import ProductSell from "./components/productSell/ProductSell";
 
 const App = () => {
   return (
@@ -16,7 +19,9 @@ const App = () => {
         </div>
         <div className="header-chartOverView-productSell">
           <Header />
-          {/* <ChartOverview /> */}
+
+          <ChartOverview />
+          <ProductSell />
         </div>
       </section>
     </>

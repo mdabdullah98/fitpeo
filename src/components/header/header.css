@@ -7,12 +7,13 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 1.2rem 0;
+  margin: 1rem 0;
 }
 
 .greet-user-search-main .search-form {
+  width: 10rem;
+  display: flex;
   background: #fff;
-  display: block;
 }
 .greet-user-search-main .search-form label {
   cursor: pointer;
@@ -20,6 +21,7 @@
   font-size: 1.2rem;
 }
 .greet-user-search-main .search-form input {
+  width: 100%;
   border: none;
   outline: none;
 }
@@ -29,4 +31,10 @@
 }
 .greet-user-search-main .balance-sheet-overview .card {
   padding: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .greet-user-search-main .search-form {
+    width: 100%;
+  }
 }
